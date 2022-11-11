@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('picture/1645015412_15-phonoteka-org-p-foni-dlya-vaibera-visokoe-kachestvo-17.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+   color: violet;
+   font-size: 4rem;
+   font-family: 'Times New Roman', Times, serif;
+}
+.news {
+    background-color: azure;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: blueviolet;
+}
+ 
+article h2 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: #636b6f;
+    margin-bottom: 5px;
+}
+
+article img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .Links {
+    margin: #636b6f;
+}
+
+footer .Links > a {
+    color: black;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+
+}
